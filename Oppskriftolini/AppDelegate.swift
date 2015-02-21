@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Oppskriftolini
-//
-//  Created by Knut Nygaard on 2/14/15.
-//  Copyright (c) 2015 Knut Nygaard. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

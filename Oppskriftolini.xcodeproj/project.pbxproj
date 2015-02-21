@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722EF98B1A8F468400D5B7F8 /* IngredientModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 722EF9891A8F468400D5B7F8 /* IngredientModel.xcdatamodeld */; };
+		722EF98D1A8F46E800D5B7F8 /* IngredientItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722EF98C1A8F46E800D5B7F8 /* IngredientItem.swift */; };
+		722EF9931A8F62C800D5B7F8 /* Receipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722EF9921A8F62C800D5B7F8 /* Receipe.swift */; };
+		722EF9951A8F638700D5B7F8 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722EF9941A8F638700D5B7F8 /* Step.swift */; };
+		72560F4C1A987E51009B599A /* IngredientsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72560F4B1A987E51009B599A /* IngredientsListTableViewController.swift */; };
+		72560F4E1A988D24009B599A /* IngredientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72560F4D1A988D24009B599A /* IngredientList.swift */; };
+		727D26691A93DF2C00C76AA0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D26681A93DF2C00C76AA0 /* Section.swift */; };
 		729D7A671A8F3C060024AD31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D7A661A8F3C060024AD31 /* AppDelegate.swift */; };
-		729D7A691A8F3C060024AD31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D7A681A8F3C060024AD31 /* ViewController.swift */; };
+		729D7A691A8F3C060024AD31 /* ReceipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D7A681A8F3C060024AD31 /* ReceipeViewController.swift */; };
 		729D7A6C1A8F3C060024AD31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729D7A6A1A8F3C060024AD31 /* Main.storyboard */; };
 		729D7A6E1A8F3C060024AD31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729D7A6D1A8F3C060024AD31 /* Images.xcassets */; };
 		729D7A711A8F3C060024AD31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729D7A6F1A8F3C060024AD31 /* LaunchScreen.xib */; };
@@ -26,10 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		722EF98A1A8F468400D5B7F8 /* IngredientModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IngredientModel.xcdatamodel; sourceTree = "<group>"; };
+		722EF98C1A8F46E800D5B7F8 /* IngredientItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientItem.swift; path = Oppskriftolini/IngredientItem.swift; sourceTree = "<group>"; };
+		722EF9921A8F62C800D5B7F8 /* Receipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipe.swift; sourceTree = "<group>"; };
+		722EF9941A8F638700D5B7F8 /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		72560F4B1A987E51009B599A /* IngredientsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsListTableViewController.swift; sourceTree = "<group>"; };
+		72560F4D1A988D24009B599A /* IngredientList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientList.swift; sourceTree = "<group>"; };
+		727D26681A93DF2C00C76AA0 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		729D7A611A8F3C060024AD31 /* Oppskriftolini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oppskriftolini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D7A651A8F3C060024AD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729D7A661A8F3C060024AD31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		729D7A681A8F3C060024AD31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		729D7A681A8F3C060024AD31 /* ReceipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeViewController.swift; sourceTree = "<group>"; };
 		729D7A6B1A8F3C060024AD31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		729D7A6D1A8F3C060024AD31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		729D7A701A8F3C060024AD31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +70,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		722EF98E1A8F46FE00D5B7F8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				722EF9891A8F468400D5B7F8 /* IngredientModel.xcdatamodeld */,
+				722EF98C1A8F46E800D5B7F8 /* IngredientItem.swift */,
+				722EF9921A8F62C800D5B7F8 /* Receipe.swift */,
+				722EF9941A8F638700D5B7F8 /* Step.swift */,
+				727D26681A93DF2C00C76AA0 /* Section.swift */,
+				72560F4D1A988D24009B599A /* IngredientList.swift */,
+			);
+			name = models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		72560F4A1A987E2E009B599A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				729D7A681A8F3C060024AD31 /* ReceipeViewController.swift */,
+				72560F4B1A987E51009B599A /* IngredientsListTableViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		729D7A581A8F3C060024AD31 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +114,9 @@
 		729D7A631A8F3C060024AD31 /* Oppskriftolini */ = {
 			isa = PBXGroup;
 			children = (
+				72560F4A1A987E2E009B599A /* controllers */,
+				722EF98E1A8F46FE00D5B7F8 /* models */,
 				729D7A661A8F3C060024AD31 /* AppDelegate.swift */,
-				729D7A681A8F3C060024AD31 /* ViewController.swift */,
 				729D7A6A1A8F3C060024AD31 /* Main.storyboard */,
 				729D7A6D1A8F3C060024AD31 /* Images.xcassets */,
 				729D7A6F1A8F3C060024AD31 /* LaunchScreen.xib */,
@@ -161,6 +199,7 @@
 				TargetAttributes = {
 					729D7A601A8F3C060024AD31 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = E9A359GGU4;
 					};
 					729D7A751A8F3C060024AD31 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -212,8 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729D7A691A8F3C060024AD31 /* ViewController.swift in Sources */,
+				722EF9931A8F62C800D5B7F8 /* Receipe.swift in Sources */,
+				722EF98B1A8F468400D5B7F8 /* IngredientModel.xcdatamodeld in Sources */,
+				72560F4C1A987E51009B599A /* IngredientsListTableViewController.swift in Sources */,
+				729D7A691A8F3C060024AD31 /* ReceipeViewController.swift in Sources */,
+				727D26691A93DF2C00C76AA0 /* Section.swift in Sources */,
 				729D7A671A8F3C060024AD31 /* AppDelegate.swift in Sources */,
+				722EF98D1A8F46E800D5B7F8 /* IngredientItem.swift in Sources */,
+				722EF9951A8F638700D5B7F8 /* Step.swift in Sources */,
+				72560F4E1A988D24009B599A /* IngredientList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +451,7 @@
 				729D7A821A8F3C060024AD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		729D7A831A8F3C060024AD31 /* Build configuration list for PBXNativeTarget "OppskriftoliniTests" */ = {
 			isa = XCConfigurationList;
@@ -413,8 +460,23 @@
 				729D7A851A8F3C060024AD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		722EF9891A8F468400D5B7F8 /* IngredientModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				722EF98A1A8F468400D5B7F8 /* IngredientModel.xcdatamodel */,
+			);
+			currentVersion = 722EF98A1A8F468400D5B7F8 /* IngredientModel.xcdatamodel */;
+			name = IngredientModel.xcdatamodeld;
+			path = Oppskriftolini/IngredientModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 729D7A591A8F3C060024AD31 /* Project object */;
 }
